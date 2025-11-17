@@ -1,0 +1,42 @@
+name: betweener_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  provider: ^6.1.5+1
+  flutter_svg: ^2.2.1
+  email_validator: ^3.0.0
+  qr_flutter: ^4.1.0
+  google_maps_flutter: ^2.13.1
+  flutter_slidable: ^3.1.0
+  geolocator: ^12.0.0
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/imgs/
+
+flutter_launcher_name:
+  name: "Betweener App"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/imgs/logo.png"
